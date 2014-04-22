@@ -3,6 +3,7 @@ using namespace std;
 int main(){
     int m,n,p;
     int cnt[26] = {0};
+    char s;
     cin >> m >> n >> p;
     cin.get();
     for (int i = 0; i < n; i++){
@@ -18,8 +19,10 @@ int main(){
             cnt[str2[j]-'A']--;
     }
     for (int i = 0; i < 26; i++){
-	for (int j = 0; j < cnt[i]; j++)
-	    cout << i+'A';
+	for (int j = 0; j < cnt[i]; j++){
+	    s = i + 'A';
+	    cout << s;
+	}
     }
     cout << endl;
     return 0;
