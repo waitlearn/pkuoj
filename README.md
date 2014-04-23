@@ -1,3 +1,7 @@
-Setup of the account, synced with school laptop
-synced with asus F8 with fedora
+This account is meant to sync codes between my work laptop and home laptop
+Work laptop: Debian in Virtural box
+Home laptop: Fedora 20 x86_64
+
+
 =====
+
